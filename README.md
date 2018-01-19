@@ -2,7 +2,7 @@
 
 1. PowerShell을 이용하여 VM 생성
 
-     | 파일    | Linux VM 생성 방법 | Notes |
+     | 파일    | 실행파일 | Notes |
      | -------- | -----------------  | ---- |
      | Windows 2016 datacenter VM 생성 |`powershell/create_winvm.ps1`      | 
      | Linux Ubuntu VM 생성     | `powershell/create_linuxvm.ps1`              | ssh 인증은 인증키를 사용        |
