@@ -1,12 +1,12 @@
 ## Azure Virtual Machine 생성 
 
-1. PowerShell을 이용하여 VM 생성
+1. Azure Portal Windows VM 생성하기
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal
 
-     | 파일    | 실행파일 | Notes |
-     | -------- | -----------------  | ---- |
-     | Windows 2016 datacenter VM 생성 |`powershell/create_winvm.ps1`      | 
-     | Linux Ubuntu VM 생성     | `powershell/create_linuxvm.ps1`              | ssh 인증은 인증키를 사용        |
+2. PowerShell을 이용하여 VM 생성하기
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell
 
-    Linux Ubuntu VM 생성 script 실행 예제  
-     ``./create_linuxvm.ps1 username=azureuser publicKeyPath="C:\Users\Azure\.ssh\id_rsa.pub" ``
+3. CLI를 이용하여 VM 생성하기
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli
+
 
